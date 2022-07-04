@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Registration Form</h1>
+        <hr>
+        <p>Fill out the form given below</p>
+    </div>
+    <div class="container2">
+        <form action="" method="get">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+            <br>
+            <label for="age">Age(years)</label>
+            <input type="number" name="age" id="age" placeholder="13" required>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" placeholder="MM/DD/YYYY" required>
+            <hr>
+            <h4>Gender</h4>
+            <input type="radio" name="gender" class="gender" id="male"><label for="male" required>Male</label>
+            <br>
+            <input type="radio" name="gender" class="gender" id="female"><label for="female">Female</label>
+            <hr>
+            <label for="previous">Previous School Name:</label>
+            <input type="text" name="previous" id="previous" placeholder="Hassan Bin Sabit High School" required>
+            <br>
+            <h4>Do you want transport?</h4>
+            <input type="radio" name="transport" class="transport" id="yes"><label for="yes">Yes</label>
+            <br>
+            <input type="radio" name="transport" class="transport" id="no"><label for="no">No</label>
+            <br>
+            <label for="class">In which class do you want to take admission?</label>
+            <select name="admission" id="admission">
+                <option value="nursery">Nursery</option>
+                <option value="prep">Prep</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+                <option value="6th">6th</option>
+                <option value="7th">7th</option>
+                <option value="8th">8th</option>
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+</body> 
+</html>
